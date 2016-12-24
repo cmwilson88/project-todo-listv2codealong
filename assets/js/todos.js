@@ -1,4 +1,4 @@
+//check off specific todos by clicking
 $("li").on("click", function() {
-	$(this).css("text-decoration", "line-through");
-	$(this).css("color: gray");
-} )
+	$(this).toggleClass("completed");
+});
